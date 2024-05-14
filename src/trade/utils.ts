@@ -5,7 +5,8 @@ export enum NativeAssets {
   MATIC = 'MATIC',
   BNB = 'BNB',
   AVAX = 'AVAX',
-  ETH = 'ETH'
+  ETH = 'ETH',
+  SEI = 'SEI'
 }
 
 function nativeCurrencyAddressString(chainId: number): string {
@@ -13,9 +14,12 @@ function nativeCurrencyAddressString(chainId: number): string {
     case ChainId.POLYGON:
       return NativeAssets.MATIC
     case ChainId.BNB:
+    case ChainId.BSC_TESTNET:
       return NativeAssets.BNB
     case ChainId.AVALANCHE:
       return NativeAssets.AVAX
+    case ChainId.SEI_TESTNET:
+      return NativeAssets.SEI
     default:
       return NativeAssets.ETH
   }
