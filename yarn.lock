@@ -1320,10 +1320,10 @@
     ethers "^5.3.1"
     tiny-invariant "^1.3.1"
 
-"@xeiswap/sdk-core@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/@xeiswap/sdk-core/-/sdk-core-0.0.5.tgz#f978e77e1fa0074823b38ec9103a2732efc1e48c"
-  integrity sha512-nJ+lDYEgdihcDQUZHadaLdsr6jgtQ7OZ4inAw+3J8hel9AhB+QC2wO79eJj3sabuYy4/n7KZLrLwi9H7/6kcJg==
+"@xeiswap/sdk-core@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@xeiswap/sdk-core/-/sdk-core-0.0.7.tgz#cb243222b5309f3de9b436e2dcedf277d581b353"
+  integrity sha512-bbj7OtuwgeJ3YxmLXc4oFTWlwH6IU2DK0u2dvryXWzVyDZk9BQKD8t1/K4YaBQ0Hbd1hlIUW2m627NlSgrLiAg==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
